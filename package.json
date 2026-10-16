@@ -1,0 +1,19 @@
+{
+  "name": "hongkong-motion",
+  "private": true,
+  "scripts": {
+    "assets": "scripts/prepare-assets.sh",
+    "studio": "remotion studio",
+    "render": "remotion render HongKong out/hongkong_bgm.mp4 --codec=h264 --crf=18 --audio-bitrate=320k",
+    "typecheck": "tsc -p ."
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.535",
+    "@remotion/google-fonts": "^4.0.535",
+    "@types/react": "^18.3.31",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "^4.0.535",
+    "typescript": "^5.9.3"
+  }
+}
